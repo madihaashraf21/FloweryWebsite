@@ -1,0 +1,163 @@
+body{
+    height: 100vh;
+    background: url(Screenshot\ 2025-01-04\ 114246.png);
+  background-size: cover;
+  
+}
+*{
+  
+    box-sizing: border-box;
+  text-decoration: none;
+  margin: 0; /* is se na  navbar k upe neche left side k space khtm h gi  */
+  padding: 0;/* is se na  navbar k upe neche left side k space khtm h gi  */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+section{
+  padding: 2rem 9%;
+}
+.navbar{
+  background-color: rgb(199, 187, 187);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex; /* is se na  navbar k upe neche left side k space khtm h gi  */
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px; /* nav br k box k heiggt width Optional padding for spacing */
+  position: fixed;/* Fix navbar to top */
+  top: 0; left: 0; right: 0; 
+  z-index: 10000; /*jb products scrool h ga pic nav k uper se ni guzra ge*/
+}
+.navdiv a{
+  
+  padding-left: 125px;
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: bolder;
+}
+.navdiv .square-dot{
+font-size: 15px;
+color: #e84393;
+}
+.logo{
+ 
+  display: flex;/* Flexbox for aligning items in the logo section */
+  justify-content: center;/* Aligns the logo (menu items) to the right */
+  align-items: center;
+  padding-left: 0px;
+  
+}
+li{
+ 
+  margin-right: 30px;
+  display: inline-block;
+}
+li a{
+  color: grey;
+font-size: 1.3rem;/* jo list me h is k size*/
+font-weight: normal;
+}
+li a:hover {
+  color: #e84393; /* Hover effect on menu items */
+}
+.icon a{
+  font-size: 1.5rem;
+  color:black ;
+  margin-left:10px;
+  justify-content: space-between;
+}
+.icon a:hover {
+  color: #e84393; /* Hover effect on menu items */
+}
+h2{
+  margin-top: 8rem;
+  color: #e84393;
+  background-color: rgba(255, 51, 153,.05);
+  text-align: center;
+  font-size: 38px;
+  width: 900px;
+  padding-top: 0.6rem;
+  padding-bottom: 9px;
+  margin-left: 25rem;
+  margin-bottom: 40px;
+  }
+h2 span{
+  color: #333;
+}
+
+.listproducts .item img{
+  width: 27rem;
+  height: 28rem;
+filter: drop-shadow(0 50px 20px rgba(71, 68, 68, 0.6));
+padding-bottom: 20px;
+margin-bottom: 20px;
+}
+.listproducts{
+  margin-top: 10rem;
+  margin-left: 18rem;
+  margin-right: 20rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10rem;
+}
+.listproducts .item{
+  background-color:#b494a9 ;
+  padding: 14px;
+  text-align: center;
+}
+
+.listproducts .item h3{
+  color: #31061a;
+}
+.listproducts .item .price{
+  letter-spacing: 4px;
+  color:#333;
+  line-height: 30px;
+
+}
+.listproducts .item .addcart{
+  color: #333;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 8px;
+  background-color: #333;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+
+} 
+.listproducts .item .addcart:hover{
+color: #31061a;
+background-color: beige;
+padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* img{
+  height: 25rem;
+  width: 25rem;
+}
+.boxes{
+  margin-left: 10rem;
+}
+
+.product-main .boxes{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(30rem,1fr));
+
+} */
+
+
+
+

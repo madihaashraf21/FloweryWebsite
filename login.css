@@ -1,0 +1,183 @@
+
+
+*{
+    text-decoration: none;
+    margin: 0; /* is se na  navbar k upe neche left side k space khtm h gi  */
+    padding: 0;/* is se na  navbar k upe neche left side k space khtm h gi  */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+section{
+    padding: 2rem 9%;
+}
+.navbar{
+    background-color: rgb(199, 187, 187);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex; /* is se na  navbar k upe neche left side k space khtm h gi  */
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px; /* nav br k box k heiggt width Optional padding for spacing */
+    position: fixed;/* Fix navbar to top */
+    top: 0; left: 0; right: 0; 
+}
+.navdiv a{
+    padding-left: 125px;
+    color: #333;
+    font-size: 2.4rem;
+    font-weight: bolder;
+}
+.navdiv .square-dot{
+font-size: 15px;
+color: #e84393;
+}
+.logo{
+   
+    display: flex;/* Flexbox for aligning items in the logo section */
+    justify-content: center;/* Aligns the logo (menu items) to the right */
+    align-items: center;
+    padding-left: 0px;
+    
+}
+li{
+   
+    margin-right: 30px;
+    display: inline-block;
+}
+li a{
+    color: grey;
+font-size: 1.3rem;/* jo list me h is k size*/
+font-weight: normal;
+}
+li a:hover {
+    color: #e84393; /* Hover effect on menu items */
+}
+.icon a{
+    font-size: 1.5rem;
+    color:black ;
+    margin-left:10px;
+    justify-content: space-between;
+}
+.icon a:hover {
+    color: #e84393; /* Hover effect on menu items */
+}
+
+
+
+
+.container{
+    margin-top: 3rem;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+padding: 10px 100px;
+}
+.container::after{
+      content: '';
+      position: absolute;
+    
+      width: 100%;
+      height: 100%;
+background:url(background/julia-elliot-PE8c88-lcQ0-unsplash.jpg) no-repeat center;
+background-size: cover;
+z-index: -1;
+filter: blur(25px);
+}
+
+
+.contact-box{
+margin-top: 0rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-height: 900px;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 212, 214);
+}
+.left{
+ height: 100%;
+    background: url(julia-elliot-PE8c88-lcQ0-unsplash.jpg) no-repeat center;
+background-size: cover;
+}
+.field{
+    outline: none;
+    width: 21rem;
+    height: 1.7rem;
+margin-bottom: 3rem;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 1rem;
+padding-top: 1rem;
+padding-bottom: 1.5rem;
+padding-left: 7px;
+background-color: rgba(232, 227, 227, 0.94);
+border: none;
+}
+.container .right h3{
+    color: #e84393;
+    margin-bottom: 27px;
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+.container .right h3 span{
+    color: #333;
+}
+.field:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+.field:focus{
+    background-color: #f0f0f0;
+    border: solid #b15e86;
+
+}
+.fieldarea{
+    outline: none;
+    width: 21rem;
+    height:4.7rem;
+margin-left: 0.5rem;
+margin-right: 3px;
+margin-bottom: 2rem;
+font-size: 1rem;
+padding-bottom: 1rem;
+padding-left: 7px;
+
+background-color: rgba(232, 227, 227, 0.94);
+border: none; /* min-height: 450rem; */
+}
+.fieldarea:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+.fieldarea:focus{
+    background-color: #f0f0f0;
+    border: solid #b15e86;
+
+}
+.btn{
+    margin-left: 0px;
+    margin-bottom: 4rem;
+    color: #333;
+    background-color: #e84393;
+padding-top: 9px;
+padding-left: 3px;
+padding-bottom: 9px;
+padding-right: 3px;
+width: 7rem;
+border-radius: 20px;
+border-width: 0.3px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.btn:hover{
+    color: #e84393;
+    background-color: #333;
+
+}   
+
+

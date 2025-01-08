@@ -1,0 +1,108 @@
+body{
+  height: 100vh;
+background: url(background/Screenshot\ 2025-01-04\ 114246.png) ;
+background-size: cover;
+
+}
+*{
+text-decoration: none;
+margin: 0; /* is se na  navbar k upe neche left side k space khtm h gi  */
+padding: 0;/* is se na  navbar k upe neche left side k space khtm h gi  */
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+section{
+padding: 2rem 9%;
+}
+.navbar{
+background-color: rgb(199, 187, 187);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: flex; /* is se na  navbar k upe neche left side k space khtm h gi  */
+justify-content: space-between;
+align-items: center;
+padding: 16px 20px; /* nav br k box k heiggt width Optional padding for spacing */
+position: fixed;/* Fix navbar to top */
+top: 0; left: 0; right: 0; 
+}
+.navdiv a{
+
+padding-left: 125px;
+color: #333;
+font-size: 2.4rem;
+font-weight: bolder;
+}
+.navdiv .square-dot{
+font-size: 15px;
+color: #e84393;
+}
+.logo{
+
+display: flex;/* Flexbox for aligning items in the logo section */
+justify-content: center;/* Aligns the logo (menu items) to the right */
+align-items: center;
+padding-left: 0px;
+
+}
+li{
+
+margin-right: 30px;
+display: inline-block;
+}
+li a{
+color: grey;
+font-size: 1.3rem;/* jo list me h is k size*/
+font-weight: normal;
+}
+li a:hover {
+color: #e84393; /* Hover effect on menu items */
+}
+.icon a{
+font-size: 1.5rem;
+color:black ;
+margin-left:10px;
+justify-content: space-between;
+}
+.icon a:hover {
+color: #e84393; /* Hover effect on menu items */
+}
+video{
+float: left;
+padding-left: 30px;
+padding-top: 80px;
+
+}
+h3{
+margin-top: 90px;
+color: #e84393;
+background-color: rgba(255, 51, 153,.05);
+text-align: center;
+font-size: 40px;
+width: 900px;
+padding-top: 9px;
+padding-bottom: 9px;
+margin-left: 250px;
+
+
+}
+h3 span{
+color: #333;
+}
+
+.abouttext{
+padding-top: 2.4rem;
+margin-left: 41rem;
+margin-right: 30px;
+
+}
+
+.abouttext h4{
+font-size: 19px;
+padding-bottom: 14px;
+}
+.aboutpara{
+font-size: 15px;
+line-height: 1.5;
+
+
+} 

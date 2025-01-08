@@ -1,0 +1,112 @@
+*{
+    text-decoration: none;
+    margin: 0; /* is se na  navbar k upe neche left side k space khtm h gi  */
+    padding: 0;/* is se na  navbar k upe neche left side k space khtm h gi  */
+}
+
+section{
+    padding: 2rem 9%;
+}
+.navbar{
+    background-color: rgb(199, 187, 187);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex; /* is se na  navbar k upe neche left side k space khtm h gi  */
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px; /* nav br k box k heiggt width Optional padding for spacing */
+    position: fixed;/* Fix navbar to top */
+    top: 0; left: 0; right: 0; 
+}
+.navdiv a{
+    padding-left: 125px;
+    color: #333;
+    font-size: 2.4rem;
+    font-weight: bolder;
+}
+.navdiv .square-dot{
+font-size: 15px;
+color: #e84393;
+}
+.logo{
+   
+    display: flex;/* Flexbox for aligning items in the logo section */
+    justify-content: center;/* Aligns the logo (menu items) to the right */
+    align-items: center;
+    padding-left: 0px;
+    
+}
+li{
+   
+    margin-right: 30px;
+    display: inline-block;
+}
+li a{
+    color: grey;
+font-size: 1.3rem;/* jo list me h is k size*/
+font-weight: normal;
+}
+li a:hover {
+    color: #e84393; /* Hover effect on menu items */
+}
+.icon a{
+    font-size: 1.5rem;
+    color:black ;
+    margin-left:10px;
+    justify-content: space-between;
+}
+.icon a:hover {
+    color: #e84393; /* Hover effect on menu items */
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    size: 100px;
+}
+
+
+.home{
+
+    height: 100vh; /* 100% height of the screen */
+    justify-content: flex-start;
+    align-items:flex-start;
+    text-align: left;
+    background: url(background/image\ copy.jpg) no-repeat; 
+    background-size: cover;
+    padding-left: 130px;
+}
+.home .content{
+    padding-top: 245px;
+    max-width: 50rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    color: #333;
+}
+.home .content span{
+    font-size: 3.4rem;
+    color: #e84393;
+    line-height: 1;
+}
+.home .content p{
+    padding-top: 18px;
+    padding-inline: 10px;
+    padding-right: 150px;
+    padding-bottom: 12px;
+
+}
+.home .button{
+    text-align: center;
+    color: white;
+background-color: #333;
+    border: none;
+    border-radius: 38px;
+    width: 120px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.home .button:hover{
+    background-color: #e84393;
+}
+
